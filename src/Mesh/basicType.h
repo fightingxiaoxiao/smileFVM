@@ -13,7 +13,7 @@ namespace Smile
 
     using scalarField = Eigen::Matrix<scalar, Eigen::Dynamic, 1>;
 
-    using vectorField = Eigen::Matrix<scalar, Eigen::Dynamic, 3>;
+    using vectorField = Eigen::Array<scalar, Eigen::Dynamic, 3>;
 }
 
 #endif

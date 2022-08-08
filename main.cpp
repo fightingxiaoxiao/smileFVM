@@ -9,8 +9,9 @@ int main(int argc, char **argv)
     float a = 1.23;
     QString b = "hello";
 
-    Smile::Mesh mesh;
+    Smile::Mesh mesh(10,10);
     mesh.test();
+    //mesh.U();
     //fmt::print("Hello, world!\n");
     //fmt::print("a = {0}, b = {1}\n",a, b.toUtf8());
 
