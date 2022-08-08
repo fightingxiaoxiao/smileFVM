@@ -1,0 +1,7 @@
+.vscode/
+build/
+
+# MacOS Cache
+.DS_Store
+
+
