@@ -8,5 +8,5 @@ include_directories(${Python3_INCLUDE_DIRS})
 
 target_link_libraries(Mesh "-lfmt")
 target_link_libraries(Mesh Qt6::Core)
-target_link_libraries(Mesh Eigen3::Eigen)
+#target_link_libraries(Mesh Eigen3::Eigen)
 target_link_libraries(Mesh ${Python3_LIBRARIES})
